@@ -1,0 +1,8 @@
+{
+  "name": "Rohan Singh",
+  "title": "DevOps Engineer",
+  "headline": ["I Engineer Reliable Systems.", "I Automate Scale.", "I Ship Without Downtime."],
+  "subtitle": "DevOps Engineer specializing in CI/CD, Cloud Infrastructure & Secure Deployments.",
+  "typingTexts": ["Zero Downtime Deployments", "CI/CD Architect", "Security-First Engineer"],
+  "about": "From my early days as a React Developer Intern, I discovered a passion for what happens after the code is written — how it's built, tested, secured, and deployed. That curiosity led me from frontend development to becoming a DevOps Engineer who architects reliable, automated systems. At Panini8 Software, I've transformed deployment workflows, slashing lead times by 99% through Blue/Green zero-downtime strategies. I've integrated security scanning with Sonarqube, Trivy, and OWASP into every pipeline, eliminating 10+ critical vulnerabilities. I've even built an AI-driven LLM reporting engine that turns raw data into actionable insights. I don't just write code. I engineer the systems that make code reliable."
+}

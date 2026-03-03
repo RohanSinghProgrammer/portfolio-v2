@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Panini8 Platform",
+    "link": "https://panini8.com/",
+    "image": "/images/project1.jpg",
+    "tags": ["DevOps", "Fullstack", "AI"],
+    "description": "Enterprise platform with optimized quiz modules, automated PAN card OCR processing, and AI-powered analytics — all backed by zero-downtime deployment infrastructure.",
+    "metrics": [
+      { "value": "30%", "label": "Speed Improvement" },
+      { "value": "99%", "label": "Faster Deploys" },
+      { "value": "10+", "label": "Vulns Eliminated" }
+    ]
+  },
+  {
+    "title": "Filibot",
+    "link": "https://filix.panini8.com/",
+    "image": "/images/project2.jpg",
+    "tags": ["AI", "DevOps", "Analytics"],
+    "description": "AI-powered evaluation framework with intelligent content moderation, automated analytics reporting, and data-driven insights that reduced manual effort by 70%.",
+    "metrics": [
+      { "value": "70%", "label": "Less Manual Effort" },
+      { "value": "AI", "label": "Driven Analytics" },
+      { "value": "24/7", "label": "Automated Reports" }
+    ]
+  }
+]

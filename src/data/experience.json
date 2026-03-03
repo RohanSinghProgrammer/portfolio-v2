@@ -1,0 +1,37 @@
+[
+  {
+    "role": "DevOps Engineer",
+    "company": "Panini8 Software",
+    "period": "June 2025 – Present",
+    "description": "Architecting zero-downtime deployment pipelines, integrating security scanning across the entire CI/CD lifecycle, and building AI-driven reporting systems that turn infrastructure data into business intelligence.",
+    "highlights": ["Blue/Green zero downtime deployments", "99% reduction in deployment lead time", "Integrated Sonarqube + Trivy + OWASP", "Built AI-driven LLM reporting engine", "Eliminated 10+ critical vulnerabilities"]
+  },
+  {
+    "role": "ReactJS Intern",
+    "company": "Abekus AI",
+    "period": "2024",
+    "description": "Built intelligent user interfaces for AI-powered educational platforms, focusing on performance optimization and seamless user experiences.",
+    "highlights": ["React performance optimization", "AI-integrated frontends"]
+  },
+  {
+    "role": "ReactJS Intern",
+    "company": "WeAnalyz Technologies",
+    "period": "2024",
+    "description": "Developed analytics dashboards and data visualization tools, learning to translate complex data into intuitive interfaces.",
+    "highlights": ["Analytics dashboards", "Data visualization"]
+  },
+  {
+    "role": "NextJS Intern",
+    "company": "Unico Global",
+    "period": "2023",
+    "description": "Explored server-side rendering and modern web architectures, building scalable web applications with Next.js.",
+    "highlights": ["Server-side rendering", "Next.js architecture"]
+  },
+  {
+    "role": "ReactJS Intern",
+    "company": "Six Sense Mobility",
+    "period": "2023",
+    "description": "Where it all began — my first professional experience in building web applications, igniting a passion for software engineering.",
+    "highlights": ["First professional role", "React fundamentals"]
+  }
+]

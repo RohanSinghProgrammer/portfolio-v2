@@ -1,0 +1,19 @@
+{
+  "categories": [
+    {
+      "name": "Cloud & DevOps",
+      "icon": "Cloud",
+      "skills": ["AWS", "Docker", "GitHub Actions", "Jenkins", "Nginx", "Sonarqube", "Trivy"]
+    },
+    {
+      "name": "Languages",
+      "icon": "Code",
+      "skills": ["Go", "Python", "TypeScript", "JavaScript", "HCL"]
+    },
+    {
+      "name": "Databases",
+      "icon": "Database",
+      "skills": ["MySQL", "PostgreSQL", "MongoDB"]
+    }
+  ]
+}
