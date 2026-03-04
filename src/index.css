@@ -49,11 +49,19 @@
     border-color: var(--color-border);
   }
 
+  html {
+    scroll-padding-top: 5.5rem;
+  }
+
   body {
     background-color: var(--color-background);
     color: var(--color-foreground);
     font-family: 'Inter', system-ui, sans-serif;
     scroll-behavior: smooth;
+  }
+
+  section[id] {
+    scroll-margin-top: 5.5rem;
   }
 
   .font-mono {
