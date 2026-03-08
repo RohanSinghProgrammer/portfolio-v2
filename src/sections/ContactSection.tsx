@@ -19,6 +19,10 @@ type ContactForm = z.infer<typeof contactSchema>;
 export default function ContactSection() {
   const [loading, setLoading] = useState(false);
 
+  const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID
+  const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID
+  const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+
   const {
     register,
     handleSubmit,
@@ -36,14 +40,14 @@ export default function ContactSection() {
     try {
       // Simulated send — replace with EmailJS or backend API
       await emailjs.send(
-        import.meta.env.VITE_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+        serviceId,
+        templateId,
         {
           name: data.name,
           email: data.email,
           message: data.message,
         },
-        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+        publicKey
       );
       toast.success("Message sent! I'll get back to you soon.");
       reset();
