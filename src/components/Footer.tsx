@@ -1,4 +1,4 @@
-import { Github, Linkedin, Twitter, Mail } from "lucide-react";
+import { Github, Linkedin, Mail } from "lucide-react";
 import social from "@/data/social.json";
 
 export default function Footer() {
@@ -18,9 +18,6 @@ export default function Footer() {
           </a>
           <a href={social.linkedin} target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors" aria-label="LinkedIn">
             <Linkedin size={20} />
-          </a>
-          <a href={social.twitter} target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors" aria-label="Twitter">
-            <Twitter size={20} />
           </a>
           <a href={`mailto:${social.email}`} className="text-muted-foreground hover:text-primary transition-colors" aria-label="Email">
             <Mail size={20} />

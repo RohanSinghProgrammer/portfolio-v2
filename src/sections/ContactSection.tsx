@@ -5,7 +5,7 @@ import { Send, Loader2 } from "lucide-react";
 import { useState } from "react";
 import { toast } from "sonner";
 import AnimatedSection from "@/components/AnimatedSection";
-import social from "@/data/social.json";
+import emailjs from "@emailjs/browser";
 
 const contactSchema = z.object({
   name: z.string().trim().min(1, "Name is required").max(100),
@@ -18,6 +18,10 @@ type ContactForm = z.infer<typeof contactSchema>;
 
 export default function ContactSection() {
   const [loading, setLoading] = useState(false);
+
+  const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID
+  const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID
+  const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY
 
   const {
     register,
@@ -35,7 +39,16 @@ export default function ContactSection() {
 
     try {
       // Simulated send — replace with EmailJS or backend API
-      await new Promise((resolve) => setTimeout(resolve, 1500));
+      await emailjs.send(
+        serviceId,
+        templateId,
+        {
+          name: data.name,
+          email: data.email,
+          message: data.message,
+        },
+        publicKey
+      );
       toast.success("Message sent! I'll get back to you soon.");
       reset();
     } catch {
@@ -108,7 +121,7 @@ export default function ContactSection() {
             <button
               type="submit"
               disabled={loading}
-              className="shimmer-btn w-full inline-flex items-center justify-center gap-2 px-8 py-3 bg-primary text-primary-foreground font-semibold rounded-lg transition-all duration-300 hover:shadow-[0_0_30px_hsl(160_100%_50%_/_0.3)] disabled:opacity-50"
+              className="shimmer-btn w-full inline-flex items-center justify-center gap-2 px-8 py-3 bg-primary text-primary-foreground font-semibold rounded-lg transition-all duration-300 hover:shadow-[0_0_30px_hsl(160_100%_50%/0.3)] disabled:opacity-50"
             >
               {loading ? (
                 <>
