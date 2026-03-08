@@ -1,26 +1,122 @@
 [
   {
-    "title": "Panini8 Platform",
+    "title": "Panini8 - LMS Platform",
     "link": "https://panini8.com/",
-    "image": "/images/project1.jpg",
-    "tags": ["DevOps", "Fullstack", "AI"],
+    "tags": [
+      "DevOps",
+      "Fullstack",
+      "AI"
+    ],
     "description": "Enterprise platform with optimized quiz modules, automated PAN card OCR processing, and AI-powered analytics — all backed by zero-downtime deployment infrastructure.",
     "metrics": [
-      { "value": "30%", "label": "Speed Improvement" },
-      { "value": "99%", "label": "Faster Deploys" },
-      { "value": "10+", "label": "Vulns Eliminated" }
+      {
+        "value": "30%",
+        "label": "Speed Improvement"
+      },
+      {
+        "value": "99%",
+        "label": "Faster Deploys"
+      },
+      {
+        "value": "10+",
+        "label": "Vulns Eliminated"
+      }
     ]
   },
   {
-    "title": "Filibot",
+    "title": "Filibot - AI Powered LMS",
     "link": "https://filix.panini8.com/",
-    "image": "/images/project2.jpg",
-    "tags": ["AI", "DevOps", "Analytics"],
+    "tags": [
+      "AI",
+      "DevOps",
+      "Analytics"
+    ],
     "description": "AI-powered evaluation framework with intelligent content moderation, automated analytics reporting, and data-driven insights that reduced manual effort by 70%.",
     "metrics": [
-      { "value": "70%", "label": "Less Manual Effort" },
-      { "value": "AI", "label": "Driven Analytics" },
-      { "value": "24/7", "label": "Automated Reports" }
+      {
+        "value": "70%",
+        "label": "Less Manual Effort"
+      },
+      {
+        "value": "AI",
+        "label": "Driven Analytics"
+      },
+      {
+        "value": "24/7",
+        "label": "Automated Reports"
+      }
+    ]
+  },
+  {
+    "title": "Shyam Metalics - Fabricator Management Portal",
+    "link": "https://roofmasters.seltigerroofingsheets.com/",
+    "tags": [
+      "Fullstack",
+      "DevOps",
+      "Analytics"
+    ],
+    "description": "SEL Tiger Pro is a role-based claims management platform built for fabricators, dealers, distributors, and admins to manage product purchase claims and reward points.",
+    "metrics": [
+      {
+        "value": "80%",
+        "label": "Less Manual Processing"
+      },
+      {
+        "value": "S3",
+        "label": "Secure Invoice Storage"
+      },
+      {
+        "value": "Real-time",
+        "label": "Claim Tracking & Status Updates"
+      }
+    ]
+  },
+  {
+    "title": "Abekus - AI Powered Learning & Hiring Platform",
+    "link": "https://abekus.ai/",
+    "tags": [
+      "AI",
+      "EdTech",
+      "Recruitment"
+    ],
+    "description": "Abekus is an AI-driven career development and recruitment platform that connects job seekers with companies through skill-based hiring. The platform offers adaptive learning, resume analysis, skill assessments, and AI-powered job matching to help candidates improve their abilities and enable recruiters to discover verified talent faster.",
+    "metrics": [
+      {
+        "value": "AI",
+        "label": "Smart Job Matching"
+      },
+      {
+        "value": "Skill-Based",
+        "label": "Candidate Assessment"
+      },
+      {
+        "value": "200K+",
+        "label": "Skilled Applicants"
+      }
+    ]
+  },
+  {
+    "title": "Zervise - AI Helpdesk & Customer Support Platform",
+    "link": "https://zervise.com/",
+    "tags": [
+      "SaaS",
+      "AI",
+      "Customer Support"
+    ],
+    "description": "Zervise is an AI-powered helpdesk and CRM platform that centralizes customer support across channels like Microsoft Teams, WhatsApp, Instagram, and web chat. It enables businesses to automate customer queries using AI chatbots, manage support tickets, and streamline task workflows, improving team productivity and response times.",
+    "metrics": [
+      {
+        "value": "Multi-Channel",
+        "label": "Unified Customer Support"
+      },
+      {
+        "value": "AI",
+        "label": "Automated Query Resolution"
+      },
+      {
+        "value": "Teams",
+        "label": "Integrated Workplace Helpdesk"
+      }
     ]
   }
 ]

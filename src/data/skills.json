@@ -3,7 +3,7 @@
     {
       "name": "Cloud & DevOps",
       "icon": "Cloud",
-      "skills": ["AWS", "Docker", "GitHub Actions", "Jenkins", "Nginx", "Sonarqube", "Trivy"]
+      "skills": ["AWS", "Docker", "GitHub Actions", "Jenkins", "Nginx", "Caddy", "Sonarqube", "OWASP", "Trivy"]
     },
     {
       "name": "Languages",
@@ -13,7 +13,7 @@
     {
       "name": "Databases",
       "icon": "Database",
-      "skills": ["MySQL", "PostgreSQL", "MongoDB"]
+      "skills": ["MySQL", "PostgreSQL", "MongoDB", "Redis"]
     }
   ]
 }

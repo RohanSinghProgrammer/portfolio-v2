@@ -2,13 +2,15 @@ import { ArrowDown, Download, ExternalLink } from "lucide-react";
 import { useTypingEffect } from "@/hooks/useTypingEffect";
 import personal from "@/data/personal.json";
 import AnimatedSection from "@/components/AnimatedSection";
+import MyResume from "@/assets/RohanSingh_Updated_Resume.pdf";
+import MyImg from "@/assets/my-img.jpeg";
 
 export default function HeroSection() {
   const typedText = useTypingEffect(personal.typingTexts, 70, 2000);
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Gradient orbs */}
+      {/* linear orbs */}
       <div className="absolute top-1/4 -left-32 w-96 h-96 rounded-full bg-primary/5 blur-3xl animate-float" />
       <div className="absolute bottom-1/4 -right-32 w-96 h-96 rounded-full bg-accent/5 blur-3xl animate-float" style={{ animationDelay: "3s" }} />
 
@@ -28,7 +30,7 @@ export default function HeroSection() {
                 {personal.headline.map((line, i) => (
                   <span key={i} className="block">
                     {i === 0 ? (
-                      <span className="text-gradient-primary">{line}</span>
+                      <span className="text-linear-primary">{line}</span>
                     ) : i === 1 ? (
                       <span className="text-foreground">{line}</span>
                     ) : (
@@ -64,7 +66,7 @@ export default function HeroSection() {
                   View My Work
                 </a>
                 <a
-                  href="/resume/Rohan-Singh-Resume.pdf"
+                  href={MyResume} target="_blank" rel="noopener noreferrer"
                   download
                   className="inline-flex items-center justify-center gap-2 px-8 py-3 border border-border bg-card text-foreground font-semibold rounded-lg hover:border-primary/30 transition-all duration-300"
                 >
@@ -76,11 +78,11 @@ export default function HeroSection() {
           </div>
 
           {/* Profile image */}
-          <AnimatedSection delay={300} className="flex-shrink-0">
+          <AnimatedSection delay={300} className="shrink-0">
             <div className="relative">
-              <div className="absolute -inset-1 rounded-full bg-gradient-to-br from-primary/50 to-accent/50 blur-md opacity-60" />
+              <div className="absolute -inset-1 rounded-full bg-linear-to-br from-primary/50 to-accent/50 blur-md opacity-60" />
               <img
-                src="/images/profile-placeholder.jpg"
+                src={MyImg}
                 alt="Rohan Singh - DevOps Engineer"
                 className="relative w-64 h-64 md:w-80 md:h-80 rounded-full object-cover border-2 border-primary/20"
                 loading="eager"

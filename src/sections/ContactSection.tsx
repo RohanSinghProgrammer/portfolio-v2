@@ -5,7 +5,6 @@ import { Send, Loader2 } from "lucide-react";
 import { useState } from "react";
 import { toast } from "sonner";
 import AnimatedSection from "@/components/AnimatedSection";
-import social from "@/data/social.json";
 
 const contactSchema = z.object({
   name: z.string().trim().min(1, "Name is required").max(100),

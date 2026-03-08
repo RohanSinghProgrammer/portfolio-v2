@@ -21,13 +21,13 @@ export default function ProjectsSection() {
                 {/* Image */}
                 <div className="flex-1 w-full">
                   <div className="relative group overflow-hidden rounded-xl border border-border">
-                    <img
-                      src={project.image}
-                      alt={project.title}
+                    <iframe
+                      src={project.link}
+                      title={project.title}
                       className="w-full aspect-video object-cover transition-transform duration-500 group-hover:scale-105"
                       loading="lazy"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent opacity-60" />
+                    <div className="absolute inset-0 bg-linear-to-t from-background/80 to-transparent opacity-60" />
                   </div>
                 </div>
 
@@ -51,7 +51,7 @@ export default function ProjectsSection() {
                   <div className="grid grid-cols-3 gap-4 mb-6">
                     {project.metrics.map((m) => (
                       <div key={m.label} className="text-center p-3 rounded-lg bg-card border border-border">
-                        <div className="text-xl font-bold text-gradient-primary font-mono">{m.value}</div>
+                        <div className="text-xl font-bold text-linear-primary font-mono">{m.value}</div>
                         <div className="text-xs text-muted-foreground mt-1">{m.label}</div>
                       </div>
                     ))}
