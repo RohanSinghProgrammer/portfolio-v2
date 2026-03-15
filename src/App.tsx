@@ -72,7 +72,7 @@ const App = () => {
   return (
     <TooltipProvider>
       <Sonner />
-      <BrowserRouter basename="/portfolio-v2">
+      <BrowserRouter basename="/">
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/index.html" element={<Index />} />
