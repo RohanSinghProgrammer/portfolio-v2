@@ -40,6 +40,15 @@
   <meta name="theme-color" content="#0f172a">
   <!-- CANONICAL URL -->
   <link rel="canonical" href="https://rohansingh.qzz.io/">
+  <!-- Link for Handle Redirect Script -->
+  <script>
+    (function () {
+      var redirect = new URLSearchParams(window.location.search).get('p');
+      if (redirect) {
+        window.history.replaceState(null, '', redirect);
+      }
+    })();
+  </script>
 </head>
 
 <body>
